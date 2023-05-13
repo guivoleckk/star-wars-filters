@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1683144363156" clover="3.2.0">
+  <project timestamp="1683144363157" name="All files">
+    <metrics statements="69" coveredstatements="68" conditionals="14" coveredconditionals="13" methods="32" coveredmethods="32" elements="115" coveredelements="113" complexity="0" loc="69" ncloc="69" packages="4" files="9" classes="9"/>
+    <package name="src">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="App.js" path="/home/guilherme/Área de Trabalho/projeto-star-wars/sd-029-b-project-starwars-planets-search/src/App.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="14" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="52" coveredstatements="51" conditionals="14" coveredconditionals="13" methods="26" coveredmethods="26"/>
+      <file name="ControlFilters.js" path="/home/guilherme/Área de Trabalho/projeto-star-wars/sd-029-b-project-starwars-planets-search/src/components/ControlFilters.js">
+        <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+        <line num="9" count="61" type="stmt"/>
+        <line num="11" count="61" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="17" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="25" count="61" type="stmt"/>
+        <line num="29" count="44" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+      </file>
+      <file name="FormFilters.js" path="/home/guilherme/Área de Trabalho/projeto-star-wars/sd-029-b-project-starwars-planets-search/src/components/FormFilters.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="14" type="stmt"/>
+      </file>
+      <file name="NameSearch.js" path="/home/guilherme/Área de Trabalho/projeto-star-wars/sd-029-b-project-starwars-planets-search/src/components/NameSearch.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="38" type="stmt"/>
+        <line num="10" count="38" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+      <file name="NumberChoosed.js" path="/home/guilherme/Área de Trabalho/projeto-star-wars/sd-029-b-project-starwars-planets-search/src/components/NumberChoosed.js">
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+        <line num="10" count="61" type="stmt"/>
+        <line num="12" count="61" type="stmt"/>
+        <line num="18" count="61" type="stmt"/>
+        <line num="22" count="61" type="stmt"/>
+        <line num="23" count="73" type="stmt"/>
+        <line num="29" count="73" type="stmt"/>
+        <line num="30" count="365" type="stmt"/>
+        <line num="33" count="61" type="stmt"/>
+        <line num="34" count="12" type="stmt"/>
+        <line num="40" count="12" type="stmt"/>
+        <line num="47" count="61" type="stmt"/>
+        <line num="51" count="11" type="stmt"/>
+        <line num="56" count="261" type="stmt"/>
+        <line num="67" count="11" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+      </file>
+      <file name="Table.js" path="/home/guilherme/Área de Trabalho/projeto-star-wars/sd-029-b-project-starwars-planets-search/src/components/Table.js">
+        <metrics statements="23" coveredstatements="22" conditionals="8" coveredconditionals="7" methods="7" coveredmethods="7"/>
+        <line num="8" count="38" type="stmt"/>
+        <line num="10" count="38" type="stmt"/>
+        <line num="13" count="80" type="stmt"/>
+        <line num="14" count="80" type="stmt"/>
+        <line num="17" count="38" type="stmt"/>
+        <line num="18" count="77" type="stmt"/>
+        <line num="19" count="77" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="67" type="stmt"/>
+        <line num="21" count="67" type="stmt"/>
+        <line num="22" count="87" type="stmt"/>
+        <line num="23" count="87" type="cond" truecount="3" falsecount="1"/>
+        <line num="25" count="57" type="stmt"/>
+        <line num="26" count="57" type="stmt"/>
+        <line num="28" count="10" type="stmt"/>
+        <line num="29" count="10" type="stmt"/>
+        <line num="31" count="20" type="stmt"/>
+        <line num="32" count="20" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="37" count="67" type="stmt"/>
+        <line num="40" count="38" type="stmt"/>
+        <line num="62" count="80" type="stmt"/>
+        <line num="63" count="77" type="stmt"/>
+        <line num="79" count="53" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.context">
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <file name="contextApi.js" path="/home/guilherme/Área de Trabalho/projeto-star-wars/sd-029-b-project-starwars-planets-search/src/context/contextApi.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+      <file name="contextProvider.js" path="/home/guilherme/Área de Trabalho/projeto-star-wars/sd-029-b-project-starwars-planets-search/src/context/contextProvider.js">
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="7" count="38" type="stmt"/>
+        <line num="8" count="38" type="stmt"/>
+        <line num="13" count="38" type="stmt"/>
+        <line num="15" count="14" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="18" count="80" type="stmt"/>
+        <line num="19" count="80" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+        <line num="22" count="8" type="stmt"/>
+        <line num="25" count="14" type="stmt"/>
+        <line num="28" count="38" type="stmt"/>
+        <line num="34" count="38" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.tests.mock">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="mockData.js" path="/home/guilherme/Área de Trabalho/projeto-star-wars/sd-029-b-project-starwars-planets-search/src/tests/mock/mockData.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url('../assets/img/698599.jpg');
+  background-size: cover;
+  font-family: 'Bangers', cursive;
+}
+
+/* componente de busca pelo nome */
+
+h1 {
+  margin-top: 125px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(214,48,222,1) 100%, rgba(0,212,255,1) 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 48px;
+  margin-bottom: 24px;
+}
+
+.div-name-search {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-search {
+  font-family: 'Bangers', cursive;
+  padding: 7px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: #f2f2f2;
+  color: #333;
+  max-width: 150px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+
+/* campos de selecao por select com comparison, value e column */
+
+.div-select-input {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.select-column {
+  font-family: 'Bangers', cursive;
+  padding: 7px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* .option-select-column {
+
+} */
+
+.select-comparison {
+  font-family: 'Bangers', cursive;
+  padding: 7px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* .op-comparison {
+
+} */
+
+.input-value {
+  font-family: 'Bangers', cursive;
+  padding: 7px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.button-filter {
+  font-family: 'Bangers', cursive;
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(214,48,222,1) 100%, rgba(0,212,255,1) 100%);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* componente que deleta filtros */
+
+.div-button-delete {
+  display: flex;
+  gap: 16px;
+}
+
+.button-one-delete {
+  font-family: 'Bangers', cursive;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background: radial-gradient(circle, rgba(231,2,18,1) 35%, rgba(0,212,255,1) 100%, rgba(48,222,213,1) 100%);
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-multiple-delete {
+  font-family: 'Bangers', cursive;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background: radial-gradient(circle, rgba(231,2,18,1) 35%, rgba(0,212,255,1) 100%, rgba(48,222,213,1) 100%);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* table */
+
+.main-table {
+  background-color: #0b1923;
+  border-radius: 10px;
+  margin: 50px;
+}
+
+.table-table {
+  border: 1px solid #ddcecd;
+  border-radius: 10px;
+}
+
+/* .thead-table {
+
+} */
+
+.tr-table {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(214,48,222,1) 100%, rgba(0,212,255,1) 100%);
+  color: white;
+  /* border: 1px solid #ddcecd; */
+}
+
+.tbody-map td {
+  background-color: #fffafa;
+  color: #0b1923;
+}
+
+
+
+
